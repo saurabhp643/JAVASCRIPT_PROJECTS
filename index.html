@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-
-    <title>Document</title>
+    <title></title>
 </head>
 <body>
-    <div class="head" >
-        <h1>Can you turn the light on?</h1>
-       
-        
-            <button class="button-85" onclick="document.getElementById('myImage').src='images/on.jpg'">Turn ON</button>
-          
-            <img src="images/off.jpg" alt="hey" id="myImage">
-            <button class="button-85" onclick="document.getElementById('myImage').src='images/off.jpg'">Turn OFF</button>
+    <h1>IMAGE SEARCH ENGINE</h1>
+    <form id="search-form">
+        <input type="text" id="search-box" placeholder="Search Anything Here...">
+        <button>Search</button>
+    </form>
+    <div id="search-result">
+
     </div>
-    
+    <button id="show-more-btn">Show More...</button>
+    <script src="script.js"></script>
 </body>
 </html>
